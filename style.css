@@ -1,0 +1,101 @@
+body {
+  font-family: system-ui, Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1f4e79;
+}
+
+nav a {
+  color: #1f4e79;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+}
+
+section,
+aside,
+footer {
+  background-color: #ffffff;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+}
+
+h1 {
+  color: #1f4e79;
+  font-size: 36px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  font-size: 28px;
+}
+
+p {
+  color: #444;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 300px;
+  height: auto;
+  margin: 15px 0;
+}
+
+button {
+  background-color: #1f4e79;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #163955;
+}
+
+article {
+  background-color: #f0f4f8;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+section div img {
+    margin: 20px auto;
+}
+
+footer {
+  text-align: center;
+  background-color: #1f4e79;
+}
+
+footer h2,
+footer p,
+footer a {
+  color: white;
+}
